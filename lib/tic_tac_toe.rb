@@ -97,7 +97,12 @@ end
 end
 
 def play(board)
-turn(board)
+  until over(board) == true
+  turn(board)
+  if over(board) == true 
+    puts "The game is over"
+  end
+end
 end
 
 
