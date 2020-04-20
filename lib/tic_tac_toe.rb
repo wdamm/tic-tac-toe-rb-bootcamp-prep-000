@@ -101,9 +101,10 @@ end
 
 def play(board)
   until over?(board) == true
-  turn(board)
   if over?(board) == true
-    puts "game over"
+    puts "Game over"
+  else
+  turn(board)
   end
 end
 end
