@@ -96,9 +96,9 @@ if winning_board != nil
 end
 end
 
-
-
-
+def play(board)
+turn(board)
+end
 
 
 
