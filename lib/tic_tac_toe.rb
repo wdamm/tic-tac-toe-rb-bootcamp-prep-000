@@ -97,10 +97,7 @@ end
 end
 
 def play(board)
-done = over(board)
-until done == true
 turn(board)
-end
 end
 
 
